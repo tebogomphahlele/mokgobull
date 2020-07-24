@@ -25,11 +25,11 @@ footer, .contact-info {
     display: flex;
 }
 
-.email, .logo {
+.logo {
     flex:2;
 }
 
-.call, .hamburger {
+.call,.email, .hamburger {
     flex:1;
 }
 
@@ -41,6 +41,14 @@ footer, .contact-info {
     display: flex;
 }
 /*Main page*/
+
+.intro .slogan {
+    line-height: 54px;
+    color: white;
+    font-size: 36px;
+    text-shadow: 2px 2px 3px black;
+}
+
 
 .intro {
     text-align: center;
