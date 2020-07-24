@@ -93,3 +93,7 @@ footer, .contact-info {
 .address {
     flex: 1;
 }
+
+.copyright {
+    font-size: small;
+}
