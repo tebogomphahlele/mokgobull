@@ -42,16 +42,16 @@ footer, .contact-info {
     display: flex;
 }
 
-.logo {
+.logo , .email{
     flex:2;
 }
 
-.call,.email, .hamburger {
+.call, .hamburger {
     flex:1;
 }
 
 .logo img {
-    width: 300px;
+    width: 250px;
 }
 
 .company-logo, .footer-info {
@@ -60,6 +60,7 @@ footer, .contact-info {
 /*Main page*/
 
 .intro .slogan {
+    padding-top: 30px;
     line-height: 54px;
     color: white;
     font-size: 36px;
@@ -96,4 +97,34 @@ footer, .contact-info {
 
 .copyright {
     font-size: small;
+}
+
+.btn .not-trans {
+    padding: 10px 30px;
+    display: inline-block;
+    background-color: rgb(28, 196, 28);
+    list-style: none;
+    margin: 50px 10px 0px 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px black;
+}
+
+.btn .trans {
+    padding: 10px 30px;
+    display: inline-block;
+    border: 2px solid white;
+    list-style: none;
+    margin: 50px 10px 0px 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px black;
+}
+
+.btn .trans:hover {
+    background-color: rgb(28, 196, 28);
+}
+
+.btn li a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
 }
